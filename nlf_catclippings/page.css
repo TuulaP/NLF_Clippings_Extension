@@ -1,0 +1,61 @@
+<style type="text/css">
+html {
+  background: url("test.jpg") no-repeat 0% 0% fixed;
+  background-size: contain;
+}
+
+body,td,th {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: #FFFFFF;
+	padding-left: 35px;
+	padding-top: 35px;
+}
+body {
+   color: #0000FF
+}
+a:link {
+	color: #0000FF;
+	background-color:  #e6ffe6;
+	underline: 1;
+	text-decoration: none;
+}
+a:visited {
+	color: #000FFF;
+	background-color: #e6ffe6;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	color: #F5F5F5;
+	background-color: #e6ffe6;
+}
+h1 {
+	font-size: 24px;
+}
+h2 {
+	font-size: 14px;
+}
+img {
+	background-color: #e6ffff;
+
+}
+div.image {
+   content:url('https://www.kansalliskirjasto.fi/sites/all/themes/custom/uh_natlib/logo.png');
+   background-color: #0072b9;
+   height: auto;
+   width: auto;
+   max-width: 100px;
+}​
+styledimg {
+	content: url('https://www.kansalliskirjasto.fi/sites/all/themes/custom/uh_natlib/logo.png'); background-repeat: no-repeat; background-color: #e6ffff;
+	background-image: url('https://www.kansalliskirjasto.fi/sites/all/themes/custom/uh_natlib/logo.png'); background-repeat: no-repeat; background-color: #e6ffff;
+}
+span {
+	background-color: #e6ffe6;
+}
+</style>

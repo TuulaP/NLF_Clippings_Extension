@@ -1,0 +1,19 @@
+{
+  "name": "Uusi välilehti",
+  "description": "Näyttää satunnaisen kissa-aiheisen lehtileikkeen Kansalliskirjaston digitaalisista aineistoista.",
+  "version": "2.0.1",
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "random.html"
+  },
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": "nlf_extlogo.png",
+    "default_title": "Uusi välilehti, Kansalliskirjaston lehtileikkeen kera."
+ },
+ "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
